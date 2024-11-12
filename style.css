@@ -1,0 +1,88 @@
+/* body et les divs */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Manrope, sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.whitezone{
+    background-color: white;
+    height: 400px;
+    width: 600px;
+
+}
+
+.pagebottom{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.michelleinfos{
+    margin-right: 45%;
+}
+
+/* Images */
+.image{
+    width: 532px;
+    height: 400px;
+}
+
+.michelle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.arrow{
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.icon{
+    display: block;
+    margin: 0 auto;
+}
+/* Texte */
+.p1{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.p2{
+    font-size: 22.5px;
+    font-weight: bold;
+    color: rgb(109, 108, 108);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.birthdate{
+    font-size: 11px;
+    font-weight: bold;
+    color: grey;
+    padding-left: 10%;
+    padding-right: 10%;
+}
